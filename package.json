@@ -2,16 +2,16 @@
   "name": "vscode-svelte-snippets",
   "displayName": "Svelte 3 Snippets",
   "description": "Svelte 3 Snippets for VS Code",
-  "version": "0.5.0",
+  "version": "0.6.1",
   "license": "MIT",
-  "publisher": "fivethree",
+  "publisher": "ryanyang52",
   "icon": "icons/logo.png",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fivethree-team/vscode-svelte-snippets.git"
+    "url": "https://github.com/ryanyang52/vscode-svelte-snippets.git"
   },
   "bugs": {
-    "url": "https://github.com/fivethree-team/vscode-svelte-snippets/issues"
+    "url": "https://github.com/ryanyang52/vscode-svelte-snippets/issues"
   },
   "engines": {
     "vscode": "^1.26.0"
@@ -41,6 +41,10 @@
       {
         "language": "svelte",
         "path": "./snippets/svelte.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/svelte-script.json"
       },
       {
         "language": "javascript",

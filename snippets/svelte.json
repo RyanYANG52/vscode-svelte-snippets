@@ -32,10 +32,37 @@
         ],
         "description": "add a script with context=\"module\" to your svelte file"
     },
+    "svelte-ts-script-tag": {
+        "prefix": "s-ts-script",
+        "body": [
+            "<script lang=\"ts\">",
+            "\t${1:// your script goes here}",
+            "</script>"
+        ],
+        "description": "add a script to your svelte file"
+    },
+    "svelte-ts-script-context": {
+        "prefix": "s-ts-script-context",
+        "body": [
+            "<script lang=\"ts\" context=\"module\">",
+            "\t${1:// your script goes here}",
+            "</script>"
+        ],
+        "description": "add a script with context=\"module\" to your svelte file"
+    },
     "svelte-style-tag": {
         "prefix": "s-style",
         "body": [
             "<style>",
+            "\t${1:/* your styles go here */}",
+            "</style>"
+        ],
+        "description": "add styles to your svelte file"
+    },
+    "svelte-postcss-style-tag": {
+        "prefix": "s-postcss-style",
+        "body": [
+            "<style lang=\"postcss\">",
             "\t${1:/* your styles go here */}",
             "</style>"
         ],

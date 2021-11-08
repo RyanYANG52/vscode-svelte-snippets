@@ -1,3 +1,10 @@
+# 0.6.1
+add ts support
+- add s-ts-script
+- add s-ts-script-context
+- add s-postcss-style
+
+
 # [0.5.0](https://github.com/fivethree-team/vscode-svelte-snippets/compare/v0.4.0...v0.5.0) (2020-07-13)
 
 

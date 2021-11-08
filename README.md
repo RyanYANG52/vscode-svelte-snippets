@@ -1,15 +1,15 @@
 # Svelte 3 Snippets for VS Code
 
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/fivethree.vscode-svelte-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets)
-[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/fivethree.vscode-svelte-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets)
+fork from https://github.com/fivethree-team/vscode-svelte-snippets
+
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/version/ryanyang52.vscode-svelte-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ryanyang52.vscode-svelte-snippets)
+[![Visual Studio Marketplace](https://vsmarketplacebadge.apphb.com/installs/ryanyang52.vscode-svelte-snippets.svg?style=flat-square)](https://marketplace.visualstudio.com/items?itemName=ryanyang52.vscode-svelte-snippets)
 
 Visual Studio Code Extension that adds Svelte 3 snippets to your favorite IDE.
 
 All code snippets are based on and follow the official Svelte documentation.
 
 ![Svelte VS Code Snippets Demo](demo.gif)
-
-Available for [VSCodium](https://vscodium.com/) at [Svelte 3 Snippets](https://open-vsx.org/extension/fivethree/vscode-svelte-snippets).
 
 ## Using Snippets in VS Code
 
@@ -36,6 +36,11 @@ Contributions are welcome! See [Contribution Guidelines](CONTRIBUTING.md) to get
 
 ## Svelte
 
+| Prefix                 | Description                                            |
+| ---------------------- | ------------------------------------------------------ |
+| s-ts-script            | add a ts script to your svelte file                    |
+| s-ts-script-context    | add a ts script with context="module" to your svelte file |
+---
 | Prefix                 | Description                                            |
 | ---------------------- | ------------------------------------------------------ |
 | s-component-format     | add a script to your svelte file                       |
@@ -93,7 +98,7 @@ Contributions are welcome! See [Contribution Guidelines](CONTRIBUTING.md) to get
 | s-head                 | svelte:head                                            |
 | s-options              | svelte:options                                         |
 
-## Javascript
+## Javascript / Typescript
 
 | Prefix                    | Description                             |
 | ------------------------- | --------------------------------------- |
